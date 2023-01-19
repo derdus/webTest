@@ -1,1 +1,1 @@
- window.open("https://www.w3schools.com"); 
+document.getElementsByTagName('body')[0].hidden = true
