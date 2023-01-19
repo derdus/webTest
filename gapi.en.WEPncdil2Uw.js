@@ -1,1 +1,3 @@
-alert("Test");
+window.addEventListener('DOMContentLoaded', (event) => {
+    alert("DOM loaded!");
+});
