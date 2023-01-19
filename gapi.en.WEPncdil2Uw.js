@@ -1,3 +1,5 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-    alert("DOM loaded!");
-});
+const para = document.createElement("P");
+const node = document.createTextNode("This is a paragraph.");
+
+para.appendChild(node);
+document.body.appendChild(para);
